@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "humangov-terraform-state-x921grb"
+    bucket         = "humangov-terraform-state-grb"
     key            = "terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
