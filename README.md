@@ -1,5 +1,3 @@
-
-markdown
 # HumanGov Infrastructure
 
 Terraform infrastructure-as-code for the [HumanGov](https://github.com/grbyrd99/human-gov-application) application — a simulated multi-tenant SaaS platform for U.S. state government agencies running on AWS.
@@ -16,6 +14,7 @@ This repository manages all AWS infrastructure for the HumanGov application usin
 | 2 | Docker containerization, ECR repository | Complete |
 | 3 | ECS Cluster, ALB, per-tenant DynamoDB and S3, multi-tenant isolation | Complete |
 | 4 | EKS cluster, Kubernetes workloads | In Progress |
+
 ## Current Infrastructure (Phase 3)
 
 ### Multi-Tenant Architecture
@@ -30,15 +29,15 @@ Each state tenant is provisioned with isolated AWS resources to ensure data sepa
 - **VPC** — isolated network with public/private subnets, security groups
 
 ### Terraform Structure
+
+```
 terraform/
-
 ├── main.tf          # Core infrastructure resources
-
 ├── variables.tf     # Input variables
-
 ├── outputs.tf       # Output values
-
 └── ...
+```
+
 ## Technologies
 
 - **IaC:** Terraform (HCL)
