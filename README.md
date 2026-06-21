@@ -1,8 +1,4 @@
 
-Thought process
-Thought process
-Here's the full corrected README for human-gov-infrastructure — replace everything in that file with this:
-
 markdown
 # HumanGov Infrastructure
 
