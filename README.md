@@ -10,49 +10,12 @@ This repository manages all AWS infrastructure for the HumanGov application usin
 
 ## Infrastructure Evolution
 
-|
- Phase 
-|
- What Was Built 
-|
- Status 
-|
-|
--------
-|
-----------------
-|
---------
-|
-|
- 1 
-|
- EC2 instance, VPC, Security Groups 
-|
- Complete 
-|
-|
- 2 
-|
- Docker containerization, ECR repository 
-|
- Complete 
-|
-|
- 3 
-|
- ECS Cluster, ALB, per-tenant DynamoDB and S3, multi-tenant isolation 
-|
- Complete 
-|
-|
- 4 
-|
- EKS cluster, Kubernetes workloads 
-|
- In Progress 
-|
-
+| Phase | What Was Built | Status |
+| --- | --- | --- |
+| 1 | EC2 instance, VPC, Security Groups | Complete |
+| 2 | Docker containerization, ECR repository | Complete |
+| 3 | ECS Cluster, ALB, per-tenant DynamoDB and S3, multi-tenant isolation | Complete |
+| 4 | EKS cluster, Kubernetes workloads | In Progress |
 ## Current Infrastructure (Phase 3)
 
 ### Multi-Tenant Architecture
